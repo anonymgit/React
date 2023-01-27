@@ -1,0 +1,49 @@
+// const url='https://mocki.io/v1/ee762599-31ae-4a3d-a6c7-d596525945e1';
+  // let isLoading=true;
+  // const [data,setData]=useState([]);
+  // const fetchApi=async(url)=>{
+  //   try{
+  //     const res=await fetch(url);
+  //     setData(await res.json());
+  //     console.log(data);
+  //     isLoading=false;
+  //   }
+  //   catch(error){
+  //     console.log(error);
+  //   }
+  // };
+  // useEffect(()=>{
+  //   fetchApi(url);
+  //   },[])
+    
+  // const [data, setData] = useState([]);
+  
+  // //const [loading, setLoading] = useState(true);
+  // //const [error, setError] = useState(null);
+  
+  //   useEffect(() => {
+  //     if(data.length > 0) return;
+  //     //setLoading(true);
+  //     //setError(null);
+  //     fetch('https://mocki.io/v1/ee762599-31ae-4a3d-a6c7-d596525945e1')
+  //     .then(response => response.json())
+  //     .then(data => {
+  //         setData(data);
+  //         //setLoading(false);
+  //     })
+  //     .catch(err => {
+  //         //setError(err);
+  //         //setLoading(false);
+  //     });
+  // }, [data.length]);
+  
+  //console.log(JSON.stringify(data))
+  //console.log(loading);
+  if(isLoading)
+  {
+    return(
+    <>
+    <h1>Loading...</h1>
+    </>
+    );
+  }
